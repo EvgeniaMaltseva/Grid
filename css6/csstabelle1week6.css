@@ -1,0 +1,75 @@
+.root{
+    width: 70vw;
+}
+.header{
+    font-size: 25px;
+    min-height: 100px;
+    background-color:rgba(137, 110, 161, 0.255);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+} 
+.main {
+    background-color:rgba(225, 137, 137, 0.508);
+    display: grid;
+    grid-template-columns: 70% 30%;
+    min-height: 400px;
+}
+.content {
+    font-size: 25px;
+    background-color:rgba(225, 137, 137, 0.508);
+    min-height: 50px;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+.content1 {
+    background-color:rgba(225, 137, 137, 0.);
+    display: grid;
+    align-content: center;
+    
+}
+.content2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.content3{
+    background-color:rgba(214, 139, 109, 0.633);
+    display: grid;
+    align-content: center;
+    
+}
+.aside {
+    font-size: 25px;
+    min-height: 50px;
+    background-color:rgba(85, 143, 114, 0.508);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    
+}
+.footer {
+    min-height: 100px;
+    background-color:rgba(98, 112, 155, 0.508);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    padding: 10px;
+    align-content: center;
+    gap: 10px;
+}
+.abschnitt{
+    font-size: 20px;
+    background-color: white;
+    display: grid;
+    min-height: 70px; 
+    align-content: center;
+}
+.text{
+    background-color:rgba(214, 139, 109, 0.633);
+    min-height: 70px; 
+    display: grid;
+    align-content: center;
+}

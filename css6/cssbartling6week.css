@@ -1,0 +1,111 @@
+body {
+    background: #c7b39b url(/images/bartling.png); /* Цвет фона и путь к файлу */;
+    color: #fff; /* Цвет текста */ 
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+.banner {
+    background-color: bisque;
+    height: 100px;
+    display: grid;
+    justify-content: right;
+    min-width: 100vw;
+}
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+}
+.nav {
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+}
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.logo {
+    background:bisque;
+    width: 260px;
+    height: 270px;
+    border: 1px solid bisque; /* Параметры рамки */
+    border-radius: 0 0 20px 20px; /* Радиус скругления */
+    display: grid;
+    grid-template-rows: 1fr 1fr 40px;
+    justify-content:space-around;
+    align-content:center;
+    position:absolute;
+    top: 55px;
+    left: 35px;
+}
+.main {
+    display: grid;
+    grid-template-columns: 95% 5%;
+}
+.content{
+    display:grid ;
+    grid-template-rows: 1fr 1fr;
+    padding: 100px;
+    padding-top: 166px;
+    padding-left: 450px;
+    }
+.gruss{
+    font-size:60pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    margin: 30px;
+    color:rgb(48, 168, 198);
+}
+.content1{
+    font-size: 17pt ;
+    color: rgb(10, 10, 10);
+    font-weight: 900;  
+    width: 55%;         
+}
+.aside {
+    padding-top: 65px;
+    padding-right: 40px ;
+    /*display: grid;
+    justify-items:last baseline;*/
+    
+}
+.h3 {
+    border: 2px solid gray;
+    background:rgb(193, 187, 187);
+    margin: auto;
+}
+.h4 {
+    font-style:italic;
+    font-size: 17pt;
+} 
+.adress {
+    background-color: bisque;
+    min-height: 180px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    margin-top: auto;
+}
+.important {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    min-width: 30%;
+    height: 105px;
+    padding: 15px;
+    border: solid 1px ;
+    border-radius: 15px;
+}
+.zeichen {
+    width: 40px;
+    height: 40px;
+}
